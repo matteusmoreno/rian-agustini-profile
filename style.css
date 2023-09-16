@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+
+:root {
+    --preto: #000000;
+    --branco: #FFFFFF;
+    --azul: #22D4FD;
+
+    --fonte-titulo: 'Krona One', sans-serif;
+    --fonte-paragrafo: 'Montserrat', sans-serif;
+}
+    
+
+body {
+    background-color: var(--preto);
+    color: var(--branco);
+}
+
+h1, p {
+    margin: 0;
+}
+
+span {
+    color: var(--azul);
+}
+
+.conteudo {
+    padding: 9em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 3em;
+    
+}
+
+.titulo {
+    font-family: var(--fonte-titulo);
+    font-weight: 400;
+    font-size: 36px; 
+}
+
+.paragrafo {
+    font-family: var(--fonte-paragrafo);
+    font-weight: 400;
+    font-size: 24px;
+    text-align: justify;
+}
+
+.lado-esquerdo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2em;
+
+}
+
+.conteudo__redes {
+    display: flex;
+    gap: 1.5em;
+    border: 0px solid #22D4FD; 
+    font-family: var(--fonte-paragrafo);
+    font-weight: 600; 
+    font-size: 24px;
+
+
+}
+
+.conteudo__botao {
+    text-decoration: none;
+    color: var(--preto);
+    background: var(--azul);
+    border-radius: 16px; 
+    padding: 22px 99px;
+    
+}
