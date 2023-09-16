@@ -74,7 +74,7 @@ span {
     
 }
 
-@media (max-width:360px) {
+@media (max-width:650px) {
 
     .conteudo {
         flex-direction: column;
