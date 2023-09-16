@@ -73,3 +73,26 @@ span {
     padding: 22px 99px;
     
 }
+
+@media (max-width:360px) {
+
+    .conteudo {
+        flex-direction: column;
+    }
+
+    .titulo {
+        width: 340px;
+    }
+
+    .paragrafo {
+        width: 340px;
+    }
+
+    .conteudo__redes {
+        flex-direction: column;
+    }
+
+    img {
+        width: 340px;
+    }
+}
